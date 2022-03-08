@@ -8,7 +8,7 @@ interface Game {
 };
 
 interface DLC {
-    extra: string;
+    //extra: string;
 }
 
 
@@ -18,7 +18,7 @@ interface GameCollection extends Game, DLC { }
 
 //implements 
 
-class CreateGame implements GameCollection { }
+//class CreateGame implements GameCollection { }
 
 //declarar função
 
@@ -31,7 +31,7 @@ interface getSimilars {
 // =============================== DIFERENÇAS ================================ //
 
 
-interface ID extends number { }
+//interface ID extends number { }
 //n consegue declarar tipos primitivos
 
 

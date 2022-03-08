@@ -1,5 +1,5 @@
 "use strict";
-//interfaces nada mais são doq conjunto de dados para descever a estrutura da um objeto, diferente do type aliases q podiamos descrever um objeto e tbm um conjunto pequeno de dde tipos primitivos, a interface trabalha exclusivamente para objetos. usamos para descrição de estrutura de objetos. 
+//interfaces nada mais são do q conjuntos de dados para descrever a estrutura da um objeto. Diferente do type aliases q podiamos descrever um objeto e tbm um conjunto de tipos primitivos, a interface trabalha exclusivamente para objetos. 
 const tlou = {
     id: 123,
     title: "The Last Of Us",
@@ -25,7 +25,7 @@ const leftBehind = {
     originalGame: tlou,
     newContent: ["3 hours story", "new characters"]
 };
-//todas as coisas do Game o DLC vai ter mais as coisas q foram definidas dentro da DLC
+//todas as coisas do Game o DLC vai ter e mais as coisas q foram definidas dentro da DLC
 //temos como implementar uma classe baseado em uma interface
 class createGame {
     constructor(t, d, g) {
